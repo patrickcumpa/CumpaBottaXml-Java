@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package trasportoprodotti;
 
 /**
@@ -9,8 +5,9 @@ package trasportoprodotti;
  * @author TommasoBotta
  */
 public class Misura {
-    private double temperatura;
-    private long dataOra;
+    
+    private final double temperatura;
+    private final long dataOra;
 
     public Misura(double temperatura, long dataOra) {
         this.temperatura = temperatura;
@@ -21,16 +18,8 @@ public class Misura {
         return temperatura;
     }
 
-    public void setTemperatura(double temperatura) {
-        this.temperatura = temperatura;
-    }
-
     public long getDataOra() {
         return dataOra;
-    }
-
-    public void setDataOra(long dataOra) {
-        this.dataOra = dataOra;
     }
     
 }
