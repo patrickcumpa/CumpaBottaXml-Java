@@ -30,6 +30,6 @@ public class PercorsoDrone {
         }
         for (Posizione p : posizioni)
             System.out.println(p);
-        parser.stampaDati();
+        parser.stampaDati();        
     }
 }
