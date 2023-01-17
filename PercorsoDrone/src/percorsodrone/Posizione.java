@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package percorsodrone;
 
 /**
@@ -37,14 +33,6 @@ public class Posizione {
 
     public double getLongitudine() {
         return longitudine;
-    }
-
-    public double getAltitudine() {
-        return altitudine;
-    }
-
-    public long getDataOra() {
-        return dataOra;
     }
 
     @Override
