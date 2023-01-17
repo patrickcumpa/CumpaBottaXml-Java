@@ -4,8 +4,6 @@
  */
 package percorsodrone;
 
-import java.util.Date;
-
 /**
  *
  * @author TommasoBotta
@@ -24,7 +22,6 @@ public class Posizione {
         this.longitudine = longitudine;
         this.altitudine = altitudine;
         this.dataOra = dataOra;
-
     }
 
     public Posizione(Posizione posizione) {
@@ -52,9 +49,8 @@ public class Posizione {
 
     @Override
     public String toString() {
-        return "Posizione: " + "latitude = " + latitudine + ", longitude = " 
-                + longitudine + ", altitudine = " + altitudine 
-                + ", data e ora = " + new Date(dataOra);
+        return "Posizione{" + "latitudine=" + latitudine + ", longitudine=" 
+                + longitudine + ", altitudine=" + altitudine + ", dataOra=" + dataOra + '}';
     }
 
 }
