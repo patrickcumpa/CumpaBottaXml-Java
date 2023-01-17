@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package trasportoprodotti;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,28 +8,24 @@ import java.util.List;
  * @author TommasoBotta
  */
 public class Veicolo {
-    private String id;
-    private List misure;
+    private final String id;
+    private final List<Misura> misure;
 
-    public Veicolo(String id, List misure) {
+    public Veicolo(String id) {
         this.id = id;
-        this.misure = misure;
+        this.misure = new ArrayList<>();
     }
 
     public String getId() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public List getMisure() {
+    public List<Misura> getMisure() {
         return misure;
     }
-
-    public void setMisure(List misure) {
-        this.misure = misure;
-    }
     
+    public void aggiungiMisura(Misura misura) {
+        this.misure.add(misura);
+    }
+
 }

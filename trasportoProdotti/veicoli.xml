@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <veicoli>
     <veicolo>
-        <ID>1234567890</ID>
+        <id>1234567890</id>
         <misura>
             <temperatura>-31.2</temperatura>
             <data_ora>2022-03-10T00:31:59</data_ora>
@@ -12,7 +12,7 @@
         </misura>
     </veicolo>
     <veicolo>
-        <ID>9876543210</ID>
+        <id>9876543210</id>
         <misura>
             <temperatura>-29.9</temperatura>
             <data_ora>2022-03-10T05:55:59</data_ora>
