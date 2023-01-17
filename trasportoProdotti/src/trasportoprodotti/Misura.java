@@ -9,19 +9,19 @@ package trasportoprodotti;
  * @author TommasoBotta
  */
 public class Misura {
-    private String temperatura;
+    private double temperatura;
     private long dataOra;
 
-    public Misura(String temperatura, long dataOra) {
+    public Misura(double temperatura, long dataOra) {
         this.temperatura = temperatura;
         this.dataOra = dataOra;
     }
 
-    public String getTemperatura() {
+    public double getTemperatura() {
         return temperatura;
     }
 
-    public void setTemperatura(String temperatura) {
+    public void setTemperatura(double temperatura) {
         this.temperatura = temperatura;
     }
 
